@@ -586,7 +586,7 @@ nav.main-menu.expanded {
     background: #e5e8ef, 100%;
   }
   .search-icon {
-    display: none;
+    display: none !important;
   }
 }
 
@@ -698,9 +698,7 @@ nav.main-menu.expanded {
   input.search-field:focus:hover {
     background: #e5e8ef, 100%;
   }
-  .search-icon {
-    display: none;
-  }
+
   .d-d-mid .row {
     display: block;
   }
